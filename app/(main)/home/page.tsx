@@ -37,8 +37,8 @@ const HomePage = () => {
           <img src="/assets/empty.gif" alt="404 not found" className="h-56 w-72 object-contain" />
           <h1 className="text-center text-2xl">{data?.status} {data?.message}</h1>
           <p className="text-center">
-            Checkout this{" "}
-            <a className="text-primary underline" href="https://anifire-beta.vercel.app/">AniFire Beta</a>
+            Checkout my portfolio for more sites like this{" "}
+            <a className="text-primary underline" href="https://siba.vercel.app">here!!</a>
           </p>
         </div>
       </div>

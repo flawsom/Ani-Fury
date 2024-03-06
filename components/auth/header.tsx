@@ -15,7 +15,7 @@ const Header = ({ label } : HeaderProps) => {
     <div className="w-full flex flex-col gap-y-1 items-center justify-center">
         <h1 className={cn("text-5xl font-bold", font.className)}>
             Ani
-            <span className="text-primary">Fire</span>
+            <span className="text-primary">Fury</span>
         </h1>
         <p>{label}</p>
     </div>

@@ -58,7 +58,7 @@ const RegisterForm = () => {
                 <FormItem>
                   <FormLabel>Username</FormLabel>
                   <FormControl>
-                    <Input disabled={isPending} placeholder="@zeddxx" {...field} />
+                    <Input disabled={isPending} placeholder="@flawsom" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -71,7 +71,7 @@ const RegisterForm = () => {
                 <FormItem>
                   <FormLabel>Email</FormLabel>
                   <FormControl>
-                    <Input disabled={isPending} type="email" placeholder="anifire@example.com" {...field} />
+                    <Input disabled={isPending} type="email" placeholder="AniFury@example.com" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>

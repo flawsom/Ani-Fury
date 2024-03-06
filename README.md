@@ -3,8 +3,8 @@
 <img src="/public/ani-fire-cover.png" alt="banner image"/>
 
 <h1 align="center">
-  <img src="/public/assets/nav.gif" alt="anifire logo" width="66" /> </br>
-  Anifire: Anime streaming website
+  <img src="/public/assets/nav.gif" alt="AniFury logo" width="66" /> </br>
+  AniFury: Anime streaming website
 </h1>
 
 <p align="center">
@@ -63,7 +63,7 @@
 
 - Clone the repository.
   ```bash
-  git clone https://github.com/Zeddxx/ani-fire.git
+  git clone https://github.com/flawsom/Ani-Fury.git
   ```
 
 - Install the npm or yarn or pnpm.
@@ -73,7 +73,7 @@
 
 - Add the `.env` on root directory.
 > [!TIP]
-> path: root to anifire outside the app directory
+> path: root to AniFury outside the app directory
 
 ```bash
 ## This should be a aniwatch api of ritesh repo (without last slash /)

@@ -109,4 +109,4 @@ export const headerItems = [
   { name: "Watchlist", href: "/watchlist"},
 ]
 
-export const URI = process.env.NODE_ENV !== "production" ? 'http://localhost:3000' : 'https://ani-fire.vercel.app'
+export const URI = process.env.NODE_ENV !== "production" ? 'http://localhost:3000' : 'https://anifury.vercel.app'

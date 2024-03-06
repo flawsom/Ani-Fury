@@ -22,31 +22,31 @@ export async function generateMetadata({
   );
   return {
     metadataBase: new URL(URI),
-    title: `Watching Episode ${isCurrentEpisode?.number} | ${info?.anime.info.name} | AniFire`,
+    title: `Watching Episode ${isCurrentEpisode?.number} | ${info?.anime.info.name} | AniFury`,
     generator: "Next.js",
-    applicationName: "Anifire App",
+    applicationName: "AniFury App",
     description: info?.anime.info.description,
-    keywords: ["anime", "free anime", "no-ads", "no-popups", "anifire", info?.anime.info.name || "", `watch ${info?.anime.info.id} on Anifire`, `Watch ${info?.anime.info.name} on Anifire`],
-    authors: [{ name: "Sahil Ahmed", url: "https://github.com/zeddxx" }],
-    creator: "Sahil Ahmed | Zeddxx",
-    publisher: "Sahil Ahmed | Zeddxx",
+    keywords: ["anime", "free anime", "no-ads", "no-popups", "AniFury", info?.anime.info.name || "", `watch ${info?.anime.info.id} on AniFury`, `Watch ${info?.anime.info.name} on AniFury`],
+    authors: [{ name: "Siba | flawsom | vibes.him", url: "https://github.com/flawsom" }],
+    creator: "Siba | flawsom | vibes.him | flawsom",
+    publisher: "Siba | flawsom | vibes.him | flawsom",
     openGraph: {
       description: info?.anime.info.description,
-      title: `Watch ${isCurrentEpisode?.title ? isCurrentEpisode.title : `Episode ${isCurrentEpisode?.number}`} Exclusively on AniFire without any popups or ads.`,
+      title: `Watch ${isCurrentEpisode?.title ? isCurrentEpisode.title : `Episode ${isCurrentEpisode?.number}`} Exclusively on AniFury without any popups or ads.`,
     },
     alternates: {
-        canonical: "https://ani-fire.vercel.app",
+        canonical: "https://anifury.vercel.app",
       },
       formatDetection: {
         telephone: false,
       },
       twitter: {
         card: "summary",
-        title: `Watch ${isCurrentEpisode?.title ? isCurrentEpisode.title : `Episode ${isCurrentEpisode?.number}`} from (${info?.anime.info.name}) Exclusively on AniFire without any popups or ads.`,
+        title: `Watch ${isCurrentEpisode?.title ? isCurrentEpisode.title : `Episode ${isCurrentEpisode?.number}`} from (${info?.anime.info.name}) Exclusively on AniFury without any popups or ads.`,
         description: info?.anime.info.description,
-        siteId: `https://ani-fire.vercel.app/${info?.anime.info.id}`,
-        creator: "@Zeddxx",
-        creatorId: "Sahil Ahmed",
+        siteId: `https://anifury.vercel.app/${info?.anime.info.id}`,
+        creator: "@flawsom",
+        creatorId: "Siba | flawsom | vibes.him",
         images: [info?.anime.info.poster || ""],
       },
   };

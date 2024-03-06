@@ -18,7 +18,7 @@ const Home = () => {
         <img src="/assets/nav.gif" alt="logo" width={80} height={72} />
         <p className="text-6xl font-bold text-secondary-foreground dark:text-white leading-none">
           Ani
-          <span className="text-[#FF003D]">Fire</span>
+          <span className="text-[#FF003D]">Fury</span>
         </p>
       </div>
 
@@ -69,10 +69,15 @@ const Home = () => {
       </div>
 
       <div className="my-8">
-        <h2 className="text-2xl text-pretty text-secondary-foreground dark:text-primary-foreground font-semibold">AniFire: A website designed exclusively for educational purposes, with no intention of generating revenue or any other commercial pursuits.</h2>
+        <h2 className="text-2xl text-pretty text-secondary-foreground dark:text-primary-foreground font-semibold">AniFury: A website designed exclusively for educational purposes, with no intention of generating revenue or any other commercial pursuits.</h2>
         <p className="text-muted-foreground text-sm">
-          This website is ad-free and created by an independent developer. Its intended audience is solely for my developer portfolio. If you accessed this site through word-of-mouth, I kindly request you to exit. Thank you for your understanding.
-        </p>
+          This website is ad-free and created by an independent developer.</p>
+          <p className="text-muted-foreground text-sm">  
+          Its intended audience is solely for my developer portfolio.</p>
+          <p className="text-muted-foreground text-sm">
+            If you accessed this site through word-of-mouth, I kindly request you to visit <a href="https://ani.flaws.tech">AniFlaws</a> & abandon this one.</p>
+            <p className="text-muted-foreground text-sm">
+              Thank you for your understanding.</p>
       </div>
     </div>
   );

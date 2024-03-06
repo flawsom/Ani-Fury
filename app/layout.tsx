@@ -12,8 +12,8 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'AnimeFire | Watch anime without any ads!',
-  description: 'Anifire is a anime streaming free website where you can watch any anime for free with-out any ads and popups.',
+  title: 'AniFury | Watch anime without any ads!',
+  description: 'AniFury is a anime streaming free website where you can watch any anime for free with-out any ads and popups.',
 }
 
 export default function RootLayout({

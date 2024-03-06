@@ -57,7 +57,7 @@ const LoginForm = () => {
         }else{
           toast({
             title: "Logged in successfully! 🎉",
-            description: "Because this project is still in beta so till now no new features for the logged in user. 🥹"
+            description: "Because this project is still in beta so till now, No new features for the logged in user. 🥹"
           })
         }
       })
@@ -83,7 +83,7 @@ const LoginForm = () => {
                   <FormControl>
                     <Input
                       disabled={isPending}
-                      placeholder="anifire@example.com"
+                      placeholder="AniFury@example.com"
                       type="email"
                       {...field}
                     />
